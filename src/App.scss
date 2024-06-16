@@ -1,0 +1,40 @@
+@import '~@skyscanner/backpack-web/bpk-stylesheets';
+@import '~@skyscanner/backpack-web/bpk-mixins';
+
+.App {
+  text-align: center;
+}
+
+.App__header {
+  background-color: #282c34;
+  padding: 32px;
+  color: white;
+}
+
+.App__header-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App__heading {
+  font-size: 32px;
+}
+
+.App__main {
+  padding: 16px;
+}
+
+.App__text {
+  margin-bottom: 16px;
+}
+
+#calendar-nav {
+  margin-bottom: 20px;
+}
+
+#calendar {
+  max-width: 320px;
+  margin: 0 auto;
+}
